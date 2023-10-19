@@ -1,0 +1,9 @@
+.statisticsList {
+  display: grid;
+  gap: 12px;
+  width: 300px;
+}
+.statisticlistItem {
+  color: #fdfdff;
+  font-size: 20px;
+}

@@ -1,0 +1,15 @@
+.feedbackBtnList {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+.feedbackBtn {
+  border-radius: 6px;
+  border: none;
+  padding: 4px 8px;
+  font-size: 20px;
+}
+.feedbackBtn:hover,
+.feedbackBtn:focus {
+  background-color: rgb(178, 184, 181);
+}
