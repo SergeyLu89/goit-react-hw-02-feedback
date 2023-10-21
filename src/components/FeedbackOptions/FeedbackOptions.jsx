@@ -1,10 +1,6 @@
 import css from './FeedbackOptions.module.css';
 
-export const FeedbackOptions = ({
-  options,
-  onLeaveFeedback,
-  countTotalFeedback,
-}) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
       <ul className={css.feedbackBtnList}>
@@ -17,7 +13,6 @@ export const FeedbackOptions = ({
                 className={css.feedbackBtn}
                 onClick={() => {
                   onLeaveFeedback(option);
-                  countTotalFeedback(option);
                 }}
               >
                 {option.toUpperCase()}

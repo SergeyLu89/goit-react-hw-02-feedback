@@ -39,7 +39,6 @@ export class App extends React.Component {
           <FeedbackOptions
             options={Object.keys(this.state)}
             onLeaveFeedback={this.onLeaveFeedback}
-            countTotalFeedback={this.countTotalFeedback}
           />
         </Section>
 
